@@ -1,0 +1,4 @@
+interface:
+  display_name: "Primary Market Project Judgment"
+  short_description: "按产业链周期卡位框架判断一级市场科技项目长期投资价值"
+  default_prompt: "Use $primary-market-project-judgment to evaluate this primary-market technology investment opportunity."

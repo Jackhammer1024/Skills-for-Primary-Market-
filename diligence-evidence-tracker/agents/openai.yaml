@@ -1,0 +1,4 @@
+interface:
+  display_name: "Diligence Evidence Tracker"
+  short_description: "把尽调材料沉淀为事实、主张、矛盾、风险和后续动作台账"
+  default_prompt: "Use $diligence-evidence-tracker to update the diligence evidence tracker from these materials."

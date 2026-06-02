@@ -1,0 +1,4 @@
+interface:
+  display_name: "IC Memo Synthesizer"
+  short_description: "将尽调材料、证据台账和项目判断整合为投委会投决备忘录"
+  default_prompt: "Use $ic-memo-synthesizer to synthesize these diligence materials into an IC-ready investment memo."

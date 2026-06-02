@@ -1,0 +1,4 @@
+interface:
+  display_name: "Interview Q&A Minutes"
+  short_description: "将访谈录音转写整理为正式投资机构内部Q&A访谈纪要"
+  default_prompt: "Use $interview-qa-minutes to turn this interview transcript into a formal Q&A meeting memo."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Primary Market Diligence Planner"
+  short_description: "为一级市场科技项目生成尽调主线、资料清单、访谈提纲和本周行动表"
+  default_prompt: "Use $primary-market-diligence-planner to build a focused diligence workplan for this investment opportunity."
