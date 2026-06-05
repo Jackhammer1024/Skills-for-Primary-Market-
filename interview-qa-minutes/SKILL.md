@@ -43,6 +43,7 @@ When returning text in chat:
 - Use broad section headings such as `一、业务与商业模式`.
 - Bold each question line when using Markdown, e.g. `**1. Q：...**`.
 - Keep answers as paragraph-style text unless bullets are clearly more readable.
+- Add thousands separators to amount and quantity figures when writing Arabic numerals, including revenue, financing amount, valuation, order amount, customer count, unit sales, capacity, production volume, headcount, parameter scale, and other business or operating quantities. For example, write `5,000 万元`, `1,500 万元`, `20,000 台`, `1,000 个量子比特`.
 - Do not mention Word formatting or file generation unless the user asks for it.
 
 When the user explicitly asks for Word output, create a `.docx` and apply these document formatting rules:
@@ -71,6 +72,7 @@ When creating the `.docx`, use a document-generation library or Word-processing 
 - Keep the original meaning and speaker logic as much as possible.
 - Remove filler words, obvious transcription noise, repeated phrases, and casual side comments.
 - Do not remove important numbers, assumptions, business mechanics, pricing details, cost structures, margins, capacity, customer information, market size, competitive claims, technical parameters, regulatory details, or risk disclosures.
+- When preserving important numbers related to amounts or quantities, normalize Arabic numerals with thousands separators while keeping the original unit and meaning unchanged. Do not add separators to years, dates, percentages, model names, chip process nodes, ratios, temperatures, or decimals where separators would reduce readability.
 - Prefer paragraph-style answers. Use bullets only when the answer naturally contains parallel lists or many discrete items.
 - Keep answers information-dense and complete; do not compress rich answers into one short sentence.
 - When a question is unclear in the transcript, reconstruct a concise question from the answer's topic.
@@ -87,6 +89,7 @@ Before responding, verify:
 - Every Q&A pair is numbered within its theme.
 - Answers use first-person voice and avoid third-person attribution.
 - Important facts from the transcript and any additional memo are retained.
+- Amount and quantity figures use thousands separators where appropriate, without altering units or factual meaning.
 - Meal talk, greetings, and irrelevant chat are removed.
 - The result reads like a formal interview memo, not a general article or high-level summary.
 - The final output is returned directly in the chat unless Word output was explicitly requested.
